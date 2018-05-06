@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 import unittest
-from .validator import *
+from .validator import is_valid_GTIN, add_check_digit
 
 
 class GTINValidatorTest(unittest.TestCase):
